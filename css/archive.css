@@ -1,0 +1,15 @@
+.row {
+  margin-bottom: 5px;
+}
+
+.row a {
+  text-decoration: none;
+}
+
+.row a:hover {
+  text-decoration: underline;
+}
+
+.date {
+  color: #ccc;
+}
