@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Posts</title>
+    <title>Article</title>
 
     <!-- Bootstrap -->
     <link href="vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/default.css" type="text/css" rel="stylesheet">
-    <link href="css/posts.css" type="text/css" rel="stylesheet">
+    <link href="css/article.css" type="text/css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -74,58 +74,44 @@
         </div>
 
         <div class="col-md-8">
-
           <article>
-            <header><h2>Echo park occupy bushwick vice selfies. </h2></header>
-            <footer><small>Posted on 1 Jan 2016</small></footer>
-
+            <h1>Direct trade butcher narwhal fixie organic shoreditch. </h1>
             <div class="lead">
-              Trust fund cliche thundercats wayfarers, hoodie ethical readymade semiotics slow-carb. Flexitarian retro mlkshk, tofu freegan fixie leggings keytar wolf blog drinking vinegar tilde four dollar toast knausgaard. Forage aesthetic art party street art ethical polaroid master cleanse messenger bag pabst tote bag. <a href="article.html">Read More</a>
+            Street art chillwave 3 wolf moon cronut, shoreditch crucifix pabst cold-pressed tattooed bitters farm-to-table four loko humblebrag austin bespoke. Gastropub butcher single-origin coffee plaid post-ironic seitan. Wayfarers forage shoreditch, fanny pack salvia vinyl stumptown cold-pressed kinfolk PBR&B 3 wolf moon waistcoat disrupt. Artisan selvage tattooed seitan chia. Leggings roof party pabst ramps pork belly, austin keffiyeh marfa wayfarers godard. Vinyl deep v ethical slow-carb.
             </div>
-
-            <footer>
-              <span class="label label-default">code</span>
-              <span class="label label-default">programming</span>
-              <span class="label label-default">bootstrap</span>
-            </footer>
-            <hr>
           </article>
-
-          <article>
-            <header><h2>Echo park occupy bushwick vice selfies. </h2></header>
-            <footer><small>Posted on 1 Jan 2016</small></footer>
-
-            <div class="lead">
-              Trust fund cliche thundercats wayfarers, hoodie ethical readymade semiotics slow-carb. Flexitarian retro mlkshk, tofu freegan fixie leggings keytar wolf blog drinking vinegar tilde four dollar toast knausgaard. Forage aesthetic art party street art ethical polaroid master cleanse messenger bag pabst tote bag. <a href="#">Read More</a>
+          
+          <div id="comments">
+            <h2>Comments</h2>  
+            <div class="row">
+              <div class="col-md-11">
+                <p>
+                  Flannel biodiesel paleo letterpress neutra helvetica. Flexitarian aesthetic VHS, normcore 90's distillery fingerstache mlkshk. Cardigan yuccie aesthetic tousled. Butcher portland health goth polaroid kale chips. 
+                </p>
+                <footer>
+                  <small><b>Sophia Wang</b> Commented on: 2 Jan 2016</small>
+                </footer>
+                <hr>
+              </div>
+              <div class="col-md-1 comment-num">01</div>
             </div>
-
-            <footer>
-              <span class="label label-default">code</span>
-              <span class="label label-default">programming</span>
-              <span class="label label-default">bootstrap</span>
-            </footer>
-            <hr>
-          </article>
-          <nav>
-            <ul class="pagination">
-              <li>
-                <a href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li>
-                <a href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-
+            <form>
+              <h3>Have your say</h3>
+              <p>
+                <label class="sr-only">Message</label>
+                <textarea class="form-control" placeholder="Message" id="message" required autocomplete="false"></textarea>
+              </p>
+              <p>
+                <label class="sr-only">Full Name</label>
+                <input type="text" class="form-control" placeholder="Full Name">
+              </p>
+              <p>
+                <label class="sr-only">Email Address</label>
+                <input type="email" class="form-control" placeholder="Email Address">
+              </p>
+              <p><input type="submit" class="btn btn-primary" value="Send Message"></p>
+            </form>
+          </div>
         </div>
       </div>
     </div>
