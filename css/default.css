@@ -28,6 +28,26 @@ body {
   padding: 0px;
 }
 
+/*responsive*/
+@media (max-width: 992px) {
+  .profile-image {
+    float: left;
+    margin-right: 15px;
+  }
 
+  .profile-content {
+    float: left;
+    margin-bottom: 10px;
+  }
 
+  .social-icons {
+    margin-left: 115px;
+  }
+}
+
+@media (min-width: 485px) and (max-width: 992px) {
+  .social-icons {
+    float: right;
+  }
+}
 
