@@ -2,7 +2,7 @@ html, body {
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f3f3f4;
   color: #676a6c;
-  height: 100%;
+  height: 100%;    
 }
 
 .box {
@@ -21,11 +21,11 @@ html, body {
   font-size: 25px;
 }
 
-
 .display-table {
   display: table;
   padding: 0px;
   height: 100%;
+  width: 100%;
 }
 
 .display-table-row {
@@ -42,10 +42,3 @@ html, body {
 .valign-top {
   vertical-align: top;
 }
-
-
-
-
-
-
-
