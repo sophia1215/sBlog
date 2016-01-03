@@ -8,7 +8,8 @@
     <title>Admin</title>
 
     <!-- Bootstrap -->
-    <link href="../vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="../vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" >
     <link href="css/default.css" type="text/css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -27,7 +28,7 @@
           <h1>Navigation</h1>
         </div>
         <!-- main content area -->
-        <div class="col-md-10 display-table-cell valign-top box">
+        <div class="col-md-10 display-table-cell valign-top">
           <div class="row">
             <header id="nav-header" class="clearfix">
               <div class="col-md-5">
@@ -37,20 +38,20 @@
               <div class="col-md-7">
                 <ul class="pull-right">
                   <li id="welcome">Welcome  to your administration area</li>
-                  <li>
+                  <li class="fixed-width">
                     <a href="#">
                       <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
                       <span class="label label-warning">3</span>
                     </a>
                   </li>
-                  <li>
+                  <li class="fixed-width">
                     <a href="#">
                       <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
                       <span class="label label-message">3</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#" class="logout">
                       <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
                       log out
                     </a>
@@ -61,7 +62,7 @@
 
           </div>
           <div class="row">
-            <footer>
+            <footer id="admin-footer" class="clearfix">
               <div class="pull-left"><b>Copyright </b>&copy; 2016</div>
               <div class="pull-right">admin system</div>
             </footer>
