@@ -2,6 +2,7 @@ html, body {
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f3f3f4;
   color: #676a6c;
+  height: 100%;
 }
 
 .box {
@@ -19,3 +20,32 @@ html, body {
   margin: 10px 0px;
   font-size: 25px;
 }
+
+
+.display-table {
+  display: table;
+  padding: 0px;
+  height: 100%;
+}
+
+.display-table-row {
+  display: table-row;
+  height: 100%;
+}
+
+.display-table-cell {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+
+.valign-top {
+  vertical-align: top;
+}
+
+
+
+
+
+
+
