@@ -181,6 +181,28 @@ html, body {
   color: #676a6c;
 }
 
+.navbar-default  {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border-color:  #1ab394;
+  background-color: #1ab394;
+}
+
+.navbar-default .icon-bar {
+  border: 1px white solid;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #1ab394;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #1ab394;
+}
+
+
 
 
 
