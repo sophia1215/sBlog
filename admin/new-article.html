@@ -8,9 +8,10 @@
     <title>Admin</title>
 
     <!-- Bootstrap -->
-    <!-- <link href="../vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="../vendor/chosen_v1.4.2/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.7.1/summernote.min.css">
     <link rel="stylesheet" type="text/css" href="css/default.css" >
     <link rel="stylesheet" type="text/css" href="css/new-article.css" >
 
@@ -151,7 +152,7 @@
 
                   <div class="form-group">
                     <label class="sr-only">Article</label>
-                    <textarea class="form-control" placeholder="Article" name="article"></textarea>
+                    <textarea class="form-control summernote" placeholder="Article" name="article"></textarea>
                   </div>
 
                   <div class="checkbox">
@@ -182,20 +183,31 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <script src="../vendor/chosen_v1.4.2/chosen.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.7.1/summernote.min.js"></script>
+
     <script src="js/default.js"></script>
-    
+
     <script type="text/JavaScript">
       var config = {
         '.chosen-select' : {},
         '.chosen-select-deselect' : {allow_single_deselect: true},
         '.chosen-select-no-single' : {disable_search_threshold: 10},
-        '.chosen-select-no-result' : {no_result_text: 'Oops, nothing found!'},
-        '.chosen-select-no-width' : {width: "95%"}
+        '.chosen-select-no-result' : {no_results_text: 'Oops, nothing found!'},
+        '.chosen-select-width' : {width: "95%"}
       }
       for (var selector in config) {
         $(selector).chosen(config[selector]);
       }
     </script>
+
+    <script type="text/JavaScript">
+      $('.summernote').summernote({
+        placeholder: 'Article',
+        url: 'http://summernote.org',
+        height: 200
+      })
+    </script>
+
 
   </body>
 </html>
