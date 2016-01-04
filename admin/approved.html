@@ -4,13 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Articles</title>
+    <title>Approved</title>
 
     <!-- Bootstrap CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/articles.css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,7 +29,7 @@
                 <span class="hidden-sm hidden-xs">Dashboard</span>
               </a>
             </li>
-            <li class="link active">
+            <li class="link">
               <a href="#collapse-post" data-toggle="collapse" aria-controls="collapse-post">
                 <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
                 <span class="hidden-xs hidden-sm">Article</span>
@@ -42,7 +40,7 @@
                 <li><a href="articles.html">View Article</a></li>
               </ul>
             </li>
-            <li class="link">
+            <li class="link active">
               <a href="#collapse-comments" data-toggle="collapse" aria-controls="collapse-comments">
                 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                 <span class="hidden-sm hidden-xs">Comments</span>
@@ -123,7 +121,7 @@
 
           <div id="content">
             <header class="clearfix">
-              <h2 class="page_title pull-left">All articles</h2>
+              <h2 class="page_title pull-left">All approved</h2>
               <button type="button" class="btn btn-xs btn-primary pull-right">Create new article</button>
             </header>
 
@@ -138,54 +136,51 @@
                   </div>
                 </div>
               </div>
-
-              <div class="row article-row">
-                <div class="col-xs-2 col-sm-1 col-md-1 status-padding">
-                  <span class="label label-success label-sm">Active</span>
+              <div class="row">
+                <div class="col-md-1">
+                  <img class="img-circle" src="http://fakeimg.pl/70x70/00CED1/FFF/?text=70x70">
                 </div>
-                <div class="col-xs-10 col-sm-6 col-md-8 article-title" >
-                  <p>Ethical tumblr brunch gluten-free kogi synth, disrupt meditation helvetica.</p>
-                  <small>Created 05 March 2016</small>
-                </div>
-                <div class="col-xs-10 col-sm-5 col-md-3 col-xs-offset-2 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
-                  <div class="article-actions">
-                    <a class="btn btn-xs btn-default" href="#" role="button">
-                      <span class="glyphicon glyphicon-folder-open" aria-hidden="true">&nbsp;View</span>
-                    </a>
-                    <a class="btn btn-xs btn-default" href="#" role="button">
-                      <span class="glyphicon glyphicon-pencil" aria-hidden="true">&nbsp;Edit</span>
-                    </a>
-                    <a class="btn btn-xs btn-default" href="#" role="button">
-                      <span class="glyphicon glyphicon-remove" aria-hidden="true">&nbsp;Delete</span>
-                    </a>
+                <div class="col-md-11">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <b>sophia wang</b> posted message on <b>How all things are made...</b><br>
+                      <small>Today 2:21 pm - 01/05/2016</small>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="clearfix">
+                        <div class="pull-right">2 days ago</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="well well-sm">
+                    Ethical tumblr brunch gluten-free kogi synth, disrupt meditation helvetica. Offal plaid taxidermy banh mi wayfarers. Williamsburg kombucha cray chicharrones, fanny pack meggings raw denim yuccie cardigan migas echo park. Occupy tattooed DIY, microdosing godard XOXO meggings. Kinfolk venmo stumptown selfies, brunch gentrify raw denim locavore vice vinyl chia roof party. Cronut green juice banh mi ethical, etsy craft beer blue bottle skateboard forage pop-up bitters. Fap trust fund lo-fi, literally bitters gentrify gastropub slow-carb truffaut deep v craft beer everyday carry blue bottle.
+                  </div>
+                  <div class="clearfix">
+                    <div class="pull-right">
+                      <a class="btn btn-xs btn-default" href="#" role="button">
+                        <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                        Un-approve
+                      </a>
+                      <a class="btn btn-xs btn-default" href="#" role="button">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                        Delete
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <hr>
-              <div class="row">
-                <div class="col-md-12">
-                  <nav>
-                    <ul class="pagination">
-                      <li><a href="#">&laquo;</a></li>
-                      <li><a href="#">1</a></li>
-                      <li><a href="#">2</a></li>
-                      <li><a href="#">3</a></li>
-                      <li><a href="#">4</a></li>
-                      <li><a href="#">5</a></li>
-                      <li><a href="#">&raquo;</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
+              
+              
+
             </div>
             </div>
+
             <div class="row">
               <footer id="admin-footer" class="clearfix">
                 <div class="pull-left"><b>Copyright </b>&copy; 2016</div>
                 <div class="pull-right">admin system</div>
               </footer>
             </div>
-
           </div>
         </div>
       </div>
