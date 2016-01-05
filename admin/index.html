@@ -10,7 +10,8 @@
     <!-- Bootstrap -->
     <!-- <link href="../vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" >
-    <link href="css/default.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -125,11 +126,164 @@
   
           <div id="dashboard-con">
             <div class="row">
-              <div class="col-md-6"></div>
-              <div class="col-md-6"></div>              
+              <div class="col-md-6 dashboard-left-cell">
+                <div class="admin-content-con">
+                  <header class="clearfix">
+                    <h5 class="pull-left">Articles</h5>
+                    <a class="btn btn-xs btn-primary pull-right" href="#" role="button">Create new article</a>
+                  </header>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>title</th>
+                        <th>replies</th>
+                        <th>date</th>
+                        <th>actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>rain rain go away...</td>
+                        <td>20</td>
+                        <td>2 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">view</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">del</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>rain rain go away...</td>
+                        <td>20</td>
+                        <td>2 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">view</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">del</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>rain rain go away...</td>
+                        <td>20</td>
+                        <td>2 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">view</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">del</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>rain rain go away...</td>
+                        <td>20</td>
+                        <td>2 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">view</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">del</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>rain rain go away...</td>
+                        <td>20</td>
+                        <td>2 days ago</td>
+                        <td>
+                          <a class="btn btn-xs btn-warning" href="#" role="button">edit</a>
+                          <a class="btn btn-xs btn-primary" href="#" role="button">view</a>
+                          <a class="btn btn-xs btn-danger" href="#" role="button">del</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="clearfix">
+                    <a href="#" class="pull-right text-link">view all articles</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 dashboard-right-cell">
+                <div class="admin-content-con">
+                  <header>
+                    <h5>Comments</h5>
+                  </header>
+                  <div class="comment-head-dash clearfix">
+                    <div class="commenter-name-dash pull-left">Sophia Wang</div>
+                    <div class="days-dash pull-right">2 days ago</div>
+                  </div>
+                  <p class="comment-dash">
+                    Wayfarers lumbersexual 8-bit, artisan yuccie mixtape marfa wolf pitchfork cliche pork belly squid plaid readymade organic. Salvia you probably haven't heard of them neutra leggings.
+                  </p>
+                  <small class="comment-date-dash">Today 5:10am 2016/01/05</small>
+                  <hr>
+                  <div class="comment-head-dash clearfix">
+                    <div class="commenter-name-dash pull-left">Sophia Wang</div>
+                    <div class="days-dash pull-right">2 days ago</div>
+                  </div>
+                  <p class="comment-dash">
+                    Wayfarers lumbersexual 8-bit, artisan yuccie mixtape marfa wolf pitchfork cliche pork belly squid plaid readymade organic. Salvia you probably haven't heard of them neutra leggings.
+                  </p>
+                  <small class="comment-date-dash">Today 5:10am 2016/01/05</small>
+                  <hr>
+                  <div class="clearfix">
+                    <a href="#" class="pull-right text-link">view all comments</a>
+                  </div>
+                </div>
+              </div>              
             </div>
+
             <div class="row">
-              
+              <div class="col-md-12">
+                <div class="admin-content-con clearfix">
+                  <header>
+                    <h5>Commenters</h5>
+                  </header>
+
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Created</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Sophia Wang</td>
+                        <td>sophiawang@example.com</td>
+                        <td><a href="#" class="label label-default">pending</a></td>
+                        <td>Today 6:17am - 2016/01/05</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Sophia Wang</td>
+                        <td>sophiawang@example.com</td>
+                        <td><a href="#" class="label label-success">active</a></td>
+                        <td>Today 6:17am - 2016/01/05</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Sophia Wang</td>
+                        <td>sophiawang@example.com</td>
+                        <td><a href="#" class="label label-success">active</a></td>
+                        <td>Today 6:17am - 2016/01/05</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Sophia Wang</td>
+                        <td>sophiawang@example.com</td>
+                        <td><a href="#" class="label label-success">active</a></td>
+                        <td>Today 6:17am - 2016/01/05</td>
+                        <td><a href="#" class="label label-danger">Delete</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div> 
+              </div>
             </div>
           </div>
 
